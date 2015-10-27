@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8054d668-3e22-477a-836a-fdede77724c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/27_Disjunction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/32_Options.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/33_EscapeSequences.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/34_Hyphenation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/37_ReChallenges.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/39_QuotedStrings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/40_Structure.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/44_FSMSimulator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/match_group.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/quotedstrings.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Unit1/test.txt" />
+    <list default="true" id="8054d668-3e22-477a-836a-fdede77724c8" name="Default" comment="Finished Unit1 lectures, regexp, FSM">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PyCharmPrj.iws" />
@@ -372,6 +360,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19122024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707354" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -413,6 +402,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Unit1 lectures, regexp, FSM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Unit1 lectures, regexp, FSM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
