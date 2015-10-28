@@ -28,6 +28,7 @@
 import re
 
 regexp = r"[a-z]+(?:-[a-z]+)?"  # you should replace this with your regular expression
+regexp = r"(?:[a-z]+-[a-z]+)|(?:[a-z]+)"  # provided answer
 
 # This problem includes an example test case to help you tell if you are on
 # the right track. You may want to make your own additional tests as well.
@@ -44,7 +45,7 @@ test_case_output = ['the', 'wide-field', 'infrared', 'survey', 'explorer',
 'hyphens', 'be', 'precise']
 
 if re.findall(regexp, test_case_input) == test_case_output:
-  print("Test case passed.")
+    print("Test case passed.")
 else:
-  print("Test case failed:")
-  print(re.findall(regexp, test_case_input))
+    print("Test case failed:")
+print(re.findall(regexp, test_case_input))
