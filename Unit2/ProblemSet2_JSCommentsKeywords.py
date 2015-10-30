@@ -57,10 +57,6 @@ states = (
     ('comment', 'exclusive'),
 )
 
-def t_COMMENT(token):
-    r'//[^\n]*'
-    pass
-
 def t_comment(token):
     r'/\*'
     token.lexer.begin('comment')
