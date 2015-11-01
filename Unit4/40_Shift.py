@@ -8,7 +8,7 @@
 
 
 def shift(tokens, i, x, ab, cd, j):
-    if cd != [] and tokens[2] == cd[0]:
+    if cd != [] and tokens[i] == cd[0]:
         return x, ab + [cd[0]], cd[1:], j
 
 print(shift(["exp","+","exp"],2,"exp",["exp","+"],["exp"],0) == ('exp', ['exp', '+', 'exp'], [], 0))

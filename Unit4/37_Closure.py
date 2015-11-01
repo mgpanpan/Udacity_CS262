@@ -31,3 +31,15 @@ grammar = [
 print(closure(grammar,0,"exp",["exp","+"],["exp"]) == [('exp', [], ['exp', '+', 'exp'], 0), ('exp', [], ['exp', '-', 'exp'], 0), ('exp', [], ['(', 'exp', ')'], 0), ('exp', [], ['num'], 0)])
 print(closure(grammar,0,"exp",[],["exp","+","exp"]) == [('exp', [], ['exp', '+', 'exp'], 0), ('exp', [], ['exp', '-', 'exp'], 0), ('exp', [], ['(', 'exp', ')'], 0), ('exp', [], ['num'], 0)])
 print(closure(grammar,0,"exp",["exp"],["+","exp"]) == [])
+
+grammar_example = [
+    ("P", ["S"]),
+    ("S", ["S", "+", "M"]),
+    ("S", ["M"]),
+    ("M", ["M", "+", "T"]),
+    ("M", ["T"]),
+    ("T", ["1"]),
+    ("T", ["2"]),
+    ("T", ["3"]),
+    ("T", ["4"]),
+]

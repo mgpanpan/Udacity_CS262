@@ -29,7 +29,7 @@ tokens = (
         'FUNCTION',     # function
         'GE',           # >=
         'GT',           # >
-#       'IDENTIFIER',   #### Not used in this problem.
+        'IDENTIFIER',   #### Not used in this problem.
         'IF',           # if
         'LBRACE',       # {
         'LE',           # <=
@@ -37,14 +37,14 @@ tokens = (
         'LT',           # <
         'MINUS',        # -
         'NOT',          # !
-#       'NUMBER',       #### Not used in this problem.
+        'NUMBER',       #### Not used in this problem.
         'OROR',         # ||
         'PLUS',         # +
         'RBRACE',       # }
         'RETURN',       # return
         'RPAREN',       # )
         'SEMICOLON',    # ;
-#       'STRING',       #### Not used in this problem.
+        'STRING',       #### Not used in this problem.
         'TIMES',        # *
         'TRUE',         # true
         'VAR',          # var
@@ -181,6 +181,20 @@ def t_VAR(token):
     r'var'
     return token
 
+def t_IDENTIFIER(token):
+    r'[a-zA-Z][a-zA-z_]*'
+    return token
+
+def t_NUMBER(token):
+    r'-?[0-9]+(?:\.[0-9]*)?'
+    token.value = float(token.value)
+    return token
+
+def t_STRING(token):
+    r'"(?:[^\\]|(?:\\.))*"'
+    token.value = token.value[1:-1]
+    return token
+
 t_ignore = ' \t\v\r'  # whitespace
 
 def t_newline(t):
@@ -202,18 +216,18 @@ def test_lexer(input_string):
     while True:
         tok = lexer.token()
         if not tok: break
-        result = result + [tok.type]
+        result = result + [(tok.type, tok.value)]
     return result
 
 input1 = """ - !  && () * , / ; { || } + < <= = == > >= else false function
-if return true var """
+if return true var vary"""
 
 output1 = ['MINUS', 'NOT', 'ANDAND', 'LPAREN', 'RPAREN', 'TIMES', 'COMMA',
 'DIVIDE', 'SEMICOLON', 'LBRACE', 'OROR', 'RBRACE', 'PLUS', 'LT', 'LE',
 'EQUAL', 'EQUALEQUAL', 'GT', 'GE', 'ELSE', 'FALSE', 'FUNCTION', 'IF',
 'RETURN', 'TRUE', 'VAR']
 
-print(test_lexer(input1) == output1)
+print(test_lexer(input1))
 
 input2 = """
 if // else mystery
