@@ -6,7 +6,7 @@ contents = f.read()
 print(contents)
 
 # solution
-regexp = r'"(?:[^\\]|(?:\\.))*"'
+regexp = r'"(?:[^\\\"]|(?:\\.))*"'
 
 match = re.findall(regexp, contents)
 print(match)
@@ -27,6 +27,10 @@ print()
 s3 = '"I say, \\"hello.\\"'
 print(s3)
 print(re.findall(regexp, s3) == [s3])
+
+s4 = '"hello" == "world"'
+s4_out = re.findall(regexp, s4);
+print(s4_out)
 
 # dot/period (.)
 # print(re.findall("[0-9].[0-9]", "1a1 222 cc3"))
