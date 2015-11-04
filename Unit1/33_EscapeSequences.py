@@ -84,3 +84,14 @@ regexp = r'[a-z]\n'
 match = re.findall(regexp, "hello world\n")
 print(match)
 print(match[0])
+
+str = "hello \n world"
+regexp1 = "\n w"
+regexp2 = "\\n w"
+
+match1 = re.findall(regexp1, str)
+match2 = re.findall(regexp2, str)
+print(match1)
+print(match1[0])
+print(match2)
+print(match2[0])
