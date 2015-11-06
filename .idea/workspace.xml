@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8054d668-3e22-477a-836a-fdede77724c8" name="Default" comment="">
+    <list default="true" id="8054d668-3e22-477a-836a-fdede77724c8" name="Default" comment="对于Python的re \n和\\n均能匹配换行符 前者是字符串识别出换行符，后者是正则引擎识别出\字符和n字符，连在一起解释为换行符">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit1/33_EscapeSequences.py" afterPath="$PROJECT_DIR$/Unit1/33_EscapeSequences.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py" afterPath="$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py" afterPath="$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py" />
     </list>
     <ignored path="PyCharmPrj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,61 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProblemSet3_DetectingAmbiguity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProblemSet3_ReadMachineMinds2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProblemSet3_ReadMachineMinds2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7817372">
+              <caret line="82" column="29" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProblemSet3_InfiniteMindReading.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_InfiniteMindReading.py">
+      <file leaf-file-name="ProblemSet1_ReadingMachineMinds.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Unit1/ProblemSet1_ReadingMachineMinds.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValidatingProgramStrings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lexer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lexer_Eli/lexer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="33_EscapeSequences.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Unit1/33_EscapeSequences.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8186398">
-              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -130,7 +92,6 @@
         <option value="$PROJECT_DIR$/Unit2/ProblemSet2_FSMOptimization.py" />
         <option value="$PROJECT_DIR$/Unit2/ProblemSet2_JSCommentsKeywords.py" />
         <option value="$PROJECT_DIR$/Unit2/ProblemSet2_JSNumberString.py" />
-        <option value="$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py" />
         <option value="$PROJECT_DIR$/Unit3/ProblemSet3_InfiniteMindReading.py" />
         <option value="$PROJECT_DIR$/Unit3/DetectingAmbiguity.py" />
         <option value="$PROJECT_DIR$/Unit4/37_Closure.py" />
@@ -142,6 +103,9 @@
         <option value="$PROJECT_DIR$/Lexer_Eli/lexer.py" />
         <option value="$PROJECT_DIR$/Lexer_Eli/lexer2.py" />
         <option value="$PROJECT_DIR$/Unit1/33_EscapeSequences.py" />
+        <option value="$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py" />
+        <option value="$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py" />
+        <option value="$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py" />
       </list>
     </option>
   </component>
@@ -208,21 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Unit1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmPrj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PyCharmPrj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lexer_Eli" />
+              <option name="myItemId" value="Unit3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,58 +191,7 @@
       <recent name="E:\Workspace\courses\CS262\PyCharmPrj\Lexer_Eli" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.33_EscapeSequences">
-    <configuration default="false" name="ProblemSet4_JSstatements" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharmPrj" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit4/ProblemSet4_JSstatements.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProblemSet4_JSExpressions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharmPrj" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit4/ProblemSet4_JSExpressions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="lexer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lexer_Eli" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyCharmPrj" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lexer_Eli/lexer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ProblemSet3_ReadMachineMinds2">
     <configuration default="false" name="lexer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,6 +222,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyCharmPrj" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit1/33_EscapeSequences.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ValidatingProgramStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmPrj" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProblemSet3_DetectingAmbiguity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmPrj" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProblemSet3_ReadMachineMinds2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Unit3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyCharmPrj" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -450,19 +400,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ProblemSet4_JSstatements" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ProblemSet4_JSExpressions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lexer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lexer2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.33_EscapeSequences" />
+      <item index="0" class="java.lang.String" itemvalue="Python.lexer2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.33_EscapeSequences" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ValidatingProgramStrings" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ProblemSet3_DetectingAmbiguity" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ProblemSet3_ReadMachineMinds2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.33_EscapeSequences" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lexer2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lexer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ProblemSet4_JSExpressions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ProblemSet4_JSstatements" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ProblemSet3_ReadMachineMinds2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ProblemSet3_DetectingAmbiguity" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ValidatingProgramStrings" />
+        <item index="3" class="java.lang.String" itemvalue="Python.33_EscapeSequences" />
+        <item index="4" class="java.lang.String" itemvalue="Python.lexer2" />
       </list>
     </recent_temporary>
   </component>
@@ -480,10 +430,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31175596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37558687" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22691706" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519562" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31611893" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3834116" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46948355" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,7 +488,8 @@
     <MESSAGE value="Unit4 js parser finished" />
     <MESSAGE value="Simple test js program for the parser" />
     <MESSAGE value="A hand writing lexer using regexp , by Eli Bendersky" />
-    <option name="LAST_COMMIT_MESSAGE" value="A hand writing lexer using regexp , by Eli Bendersky" />
+    <MESSAGE value="对于Python的re \n和\\n均能匹配换行符 前者是字符串识别出换行符，后者是正则引擎识别出\字符和n字符，连在一起解释为换行符" />
+    <option name="LAST_COMMIT_MESSAGE" value="对于Python的re \n和\\n均能匹配换行符 前者是字符串识别出换行符，后者是正则引擎识别出\字符和n字符，连在一起解释为换行符" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,6 +524,21 @@
           <line>116</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -581,7 +547,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -754,14 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit1/ProblemSet1_ReadingMachineMinds.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7752525">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Unit1/ProblemSet1_SingleHyphenWords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08838384">
@@ -898,38 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_InfiniteMindReading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lexer_Eli/lexer2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.457377">
@@ -940,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lexer_Eli/lexer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.06557377">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
@@ -948,8 +874,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Unit1/33_EscapeSequences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8186398">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.81311476">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit3/ValidatingProgramStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_DetectingAmbiguity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9803922">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="74" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_InfiniteMindReading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031147541">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit1/ProblemSet1_ReadingMachineMinds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Unit3/ProblemSet3_ReadMachineMinds2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7817372">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="29" />
           <folding />
         </state>
       </provider>

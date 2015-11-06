@@ -60,8 +60,28 @@
 # can just keep enumerating new (utterance,derivation) pairs until you
 # cannot find any that are not already enumerated.
 
+
 def isambig(grammar, start, utterance):
-    # Write your code here!
+    exps = [([start], [])]
+    expanded = exps
+    is_done = False
+    while not is_done:
+        for tokens in exps:
+            expanded = expanded + [i for i in expand(tokens, grammar) if i not in expanded]
+        if len(expanded) == len(exps):
+            is_done = True
+        exps = expanded
+
+    return len([x for x in exps if x[0] == utterance]) > 1
+
+
+def expand(tokens_derivation, grammar):
+    token, derivation = tokens_derivation
+    for pos in range(len(token)):
+        for index in range(len(grammar)):
+            if token[pos] == grammar[index][0]:
+                yield token[0:pos] + grammar[index][1] + token[pos+1:], derivation + [index]
+
 
 # We have provided a few test cases. You will likely want to add your own.
 
@@ -73,8 +93,8 @@ grammar1 = [
        ("Q", [ "b" ]),
        ("T", [ "b" ]),
        ]
-print isambig(grammar1, "S", ["a", "b"]) == True
-print isambig(grammar1, "S", ["c"]) == False
+print(isambig(grammar1, "S", ["a", "b"]) == True)
+print(isambig(grammar1, "S", ["c"]) == False)
 
 grammar2 = [
        ("A", [ "B", ]),
@@ -88,8 +108,8 @@ grammar2 = [
        ("G", [ "x", "H"]),
        ("H", [ "y", ]),
        ]
-print isambig(grammar2, "A", ["x", "y"]) == True
-print isambig(grammar2, "E", ["y"]) == False
+print(isambig(grammar2, "A", ["x", "y"]) == True)
+print(isambig(grammar2, "E", ["y"]) == False)
 
 grammar3 = [ # Rivers in Kenya
        ("A", [ "B", "C"]),
@@ -102,6 +122,6 @@ grammar3 = [ # Rivers in Kenya
        ("E", [ "Tsavo" ]),
        ("F", [ "Dawa", "Gucha" ])
        ]
-print isambig(grammar3, "A", ["Dawa", "Gucha"]) == True
-print isambig(grammar3, "A", ["Dawa", "Gucha", "Nairobi"]) == False
-print isambig(grammar3, "A", ["Tsavo"]) == False
+print(isambig(grammar3, "A", ["Dawa", "Gucha"]) == True)
+print(isambig(grammar3, "A", ["Dawa", "Gucha", "Nairobi"]) == False)
+print(isambig(grammar3, "A", ["Tsavo"]) == False)

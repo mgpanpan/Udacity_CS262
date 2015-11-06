@@ -52,8 +52,40 @@
 # Hint 3: all([True,False,True]) = False
 #         any([True,True,False]) = True
 
-def cfgempty(grammar,symbol,visited):
-    # Insert code here!
+import functools
+
+def cfgempty(grammar, symbol, visited):
+    if symbol not in [rule[0] for rule in grammar]:    # terminal
+        return [symbol]
+    elif symbol in visited:
+        return None
+    else:
+        visited += [symbol]
+        for matched_rule in [rule[1] for rule in grammar if rule[0] == symbol]:
+            subproblem = [cfgempty(grammar, elem, visited) for elem in matched_rule]
+            if None not in subproblem:
+                return functools.reduce(lambda x, y: x + y, subproblem, [])
+        return None
+
+# provided answer
+def cfgempty(grammar, symbol, visited):
+    if symbol not in [rule[0] for rule in grammar]:    # terminal
+        return [symbol]
+    elif symbol in visited:
+        return None
+    else:
+        visited += [symbol]
+        for matched_rule in [rule[1] for rule in grammar if rule[0] == symbol]:
+            if None not in [cfgempty(grammar, elem, visited) for elem in matched_rule]:
+                result = []  # gathering all terminals
+                for r in matched_rule:
+                    result += cfgempty(grammar, r, visited)
+                return result
+    return None
+
+
+    return None
+
 
 # We have provided a few test cases for you. You will likely want to add
 # more of your own.
@@ -63,7 +95,7 @@ grammar1 = [
       ("P", [ "S" ]) ,
       ]
 
-print cfgempty(grammar1,"S",[]) == None
+print(cfgempty(grammar1,"S",[]) == None)
 
 grammar2 = [
       ("S", ["P", "a" ]),
@@ -72,7 +104,7 @@ grammar2 = [
       ("Q", ["c", "d"]),
       ]
 
-print cfgempty(grammar2,"S",[]) == ['c', 'd', 'b']
+print(cfgempty(grammar2,"S",[]) == ['c', 'd', 'b'])
 
 
 grammar3 = [  # some Spanish provinces
@@ -86,4 +118,4 @@ grammar3 = [  # some Spanish provinces
         ("R", [ "R"]),
         ]
 
-print cfgempty(grammar3,"S",[]) == ['Barcelona', 'Las Palmas', 'Madrid', 'Huelva']
+print(cfgempty(grammar3,"S",[]) == ['Barcelona', 'Las Palmas', 'Madrid', 'Huelva'])

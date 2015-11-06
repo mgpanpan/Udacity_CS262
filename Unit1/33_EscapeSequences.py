@@ -88,7 +88,7 @@ print(match[0])
 str = "hello \n world"
 regexp1 = "\n w"
 regexp2 = "\\n w"
-
+# \n 和\\n 均能匹配换行符
 match1 = re.findall(regexp1, str)
 match2 = re.findall(regexp2, str)
 print(match1)
