@@ -74,17 +74,27 @@ def cfgempty(grammar, symbol, visited):
     elif symbol in visited:
         return None
     else:
-        visited += [symbol]
+        ## 注意这里一定要用新变量，不能直接用visited += [symbol] 否则由于Python对list是复制引用的，下面会由于cfgempty
+        ## 调用了两次而出现问题，一次为了判断是否empty，一次为了gathering
+        new_visited = visited + [symbol]
         for matched_rule in [rule[1] for rule in grammar if rule[0] == symbol]:
-            if None not in [cfgempty(grammar, elem, visited) for elem in matched_rule]:
+            if None not in [cfgempty(grammar, elem, new_visited) for elem in matched_rule]:
                 result = []  # gathering all terminals
                 for r in matched_rule:
-                    result += cfgempty(grammar, r, visited)
+                    result = result + cfgempty(grammar, r, new_visited)
                 return result
     return None
 
-
-    return None
+# test of pass a list as argument.
+# def test(out, visited):
+#     if len(visited) == 5:
+#         return out
+#     else:
+#         visited += [1]
+#         test(out, visited)
+#         return test(out, visited)
+#
+# print(test(10, []))
 
 
 # We have provided a few test cases for you. You will likely want to add

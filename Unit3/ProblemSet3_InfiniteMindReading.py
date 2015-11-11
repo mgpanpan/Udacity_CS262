@@ -63,12 +63,20 @@
 
 def cfginfinite(grammar):
     # Put your code here!
+    for rule in grammar:
+        if is_infinite(grammar, rule[0], []):
+            return True
+    return False
 
-
-
-
-
-
+def is_infinite(grammar, curr, nonterminals):
+    nonterminals = [curr] + nonterminals
+    for rhs in [rule[1] for rule in grammar if rule[0] == curr]:
+        for elem in rhs:
+            if len(rhs) > 1 and elem in nonterminals:
+                return True
+            elif elem not in nonterminals and elem in [x[0] for x in grammar]:
+                return is_infinite(grammar, elem, nonterminals)
+    return False
 
 # We have provided a few test cases. You will likely want to write your own
 # as well.
@@ -77,14 +85,14 @@ grammar1 = [
       ("S", [ "S", "a" ]), # S -> S a
       ("S", [ "b", ]) , # S -> b
       ]
-print cfginfinite(grammar1) == True
+print(cfginfinite(grammar1) == True)
 
 grammar2 = [
       ("S", [ "S", ]), # S -> S
       ("S", [ "b", ]) , # S -> b
       ]
 
-print cfginfinite(grammar2) == False
+print(cfginfinite(grammar2) == False)
 
 grammar3 = [
       ("S", [ "Q", ]), # S -> Q
@@ -93,7 +101,7 @@ grammar3 = [
       ("R", [ "Q"]), # R -> Q
       ]
 
-print cfginfinite(grammar3) == True
+print(cfginfinite(grammar3) == True)
 
 grammar4 = [  # Nobel Peace Prizes, 1990-1993
       ("S", [ "Q", ]),
@@ -104,4 +112,4 @@ grammar4 = [  # Nobel Peace Prizes, 1990-1993
       ("P", [ "Mandela and de Klerk"]),
       ]
 
-print cfginfinite(grammar4) == False
+print(cfginfinite(grammar4) == False)
