@@ -1,0 +1,28 @@
+** Lecture notes
+*** Unit 5
+**** Create Linked Environments
+When we call a function :
+
+1. Create a new environment. Its parent pointer points to the current environment.
+2. In the new environment, we create storage places for each formal parameter.
+3. Fill in these places with the values of the actual arguments.
+4. Evaluate the function body in the new environment.
+
+*Note!* 在UW programming languages课程中，hw5实现了一个scheme-like的
+tiny-language，在其中用到了function closure，和这里介绍的方法略有不同。
+
+**** environments needs to
+
+1. map variables to values
+2. point to the parent environment
+
+**** We'll use Exceptions to simulate the return statements in our js interpreter
+
+Phrasing "return" as an exception allows us to break out of *any nested*
+statement evaluation and return to the caller immediately.
+
+**** provided code中的global_env_update是否不合理
+
+提供的jsinterp.py程序中，有一个global_env_update函数，其类似于env_lookup函数，如果
+在当前env中找不到vname，则在其parent env中继续找，且若在global_env中还找不到，就会在
+global_env中新建variable，这是否不合理

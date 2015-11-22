@@ -5,9 +5,9 @@ _tabversion = '3.8'
 
 _lr_method = 'LALR'
 
-_lr_signature = '67D196765C6411A86912751487B71A83'
+_lr_signature = '3FD5AF082481FAF8EB12320E8065F57E'
     
-_lr_action_items = {'JAVASCRIPT':([0,1,2,3,4,5,15,16,24,],[3,-5,3,-14,-3,-4,-8,3,-9,]),'STRING':([0,1,2,3,4,5,15,16,17,24,],[1,-5,1,-14,-3,-4,-8,1,19,-9,]),'WORD':([0,1,2,3,4,5,7,9,10,11,15,16,17,19,20,21,24,],[4,-5,4,-14,-3,-4,9,-6,13,13,-8,4,20,-13,-12,23,-9,]),'LANGLE':([0,1,2,3,4,5,15,16,24,],[7,-5,7,-14,-3,-4,-8,7,-9,]),'EQUAL':([0,1,2,3,4,5,13,15,16,24,],[5,-5,5,-14,-3,-4,17,-8,5,-9,]),'SLASHRANGLE':([9,10,11,12,14,19,20,],[-6,-11,-11,15,-10,-13,-12,]),'$end':([0,1,2,3,4,5,6,8,15,24,],[-2,-5,-2,-14,-3,-4,0,-1,-8,-9,]),'RANGLE':([9,10,11,12,14,19,20,22,23,],[-6,-11,-11,16,-10,-13,-12,24,-7,]),'LANGLESLASH':([1,2,3,4,5,8,15,16,18,24,],[-5,-2,-14,-3,-4,-1,-8,-2,21,-9,]),}
+_lr_action_items = {'VAR':([0,1,21,47,76,77,79,],[2,2,-4,2,-9,2,-3,]),'MINUS':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,30,-18,-23,30,30,30,-24,30,30,30,30,-34,-36,30,-35,30,30,-33,30,30,30,-37,-25,-9,]),'LPAREN':([0,1,3,7,8,11,12,15,18,20,21,23,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[7,7,7,7,24,7,26,7,26,24,-4,42,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,-9,7,-3,]),'NOT':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[3,3,3,3,3,3,-4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,-9,3,-3,]),'STRING':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[13,13,13,13,13,13,-4,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,-9,13,-3,]),'SEMICOLON':([4,6,9,10,12,13,14,18,19,39,41,46,51,52,53,54,55,56,57,58,59,60,61,62,63,69,70,74,75,76,],[-21,21,-19,-22,-18,-20,-17,-18,-23,-15,-24,-12,-14,-28,-30,-34,-36,-31,-35,-29,-27,-33,-26,-32,-16,77,-37,-25,-13,-9,]),'TRUE':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[4,4,4,4,4,4,-4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,-9,4,-3,]),'ANDAND':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,35,-18,-23,35,35,35,-24,35,35,-28,-30,-34,-36,-31,-35,-29,-27,-33,35,-32,35,-37,-25,-9,]),'PLUS':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,36,-18,-23,36,36,36,-24,36,36,36,36,-34,-36,36,-35,36,36,-33,36,36,36,-37,-25,-9,]),'LBRACE':([4,9,10,13,18,19,25,41,52,53,54,55,56,57,58,59,60,61,62,66,67,70,72,74,76,],[-21,-19,-22,-20,-18,-23,47,-24,-28,-30,-34,-36,-31,-35,-29,-27,-33,-26,-32,47,47,-37,47,-25,-9,]),'TIMES':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,33,-18,-23,33,33,33,-24,33,33,33,33,33,-36,33,-35,33,33,33,33,33,33,-37,-25,-9,]),'GE':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,38,-18,-23,38,38,38,-24,38,38,38,-30,-34,-36,-31,-35,-29,38,-33,38,-32,38,-37,-25,-9,]),'FALSE':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[10,10,10,10,10,10,-4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,-9,10,-3,]),'ELSE':([46,76,],[67,-9,]),'EQUALEQUAL':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,28,-18,-23,28,28,28,-24,28,28,-28,-30,-34,-36,-31,-35,-29,28,-33,28,-32,28,-37,-25,-9,]),'OROR':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,37,-18,-23,37,37,37,-24,37,37,-28,-30,-34,-36,-31,-35,-29,-27,-33,-26,-32,37,-37,-25,-9,]),'DIVIDE':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,31,-18,-23,31,31,31,-24,31,31,31,31,31,-36,31,-35,31,31,31,31,31,31,-37,-25,-9,]),'$end':([0,1,5,16,21,76,79,],[-2,-2,0,-1,-4,-9,-3,]),'RPAREN':([4,9,10,13,18,19,22,24,26,41,42,43,44,45,48,49,50,52,53,54,55,56,57,58,59,60,61,62,64,70,73,74,76,78,],[-21,-19,-22,-20,-18,-23,41,-6,-39,-24,-6,-8,66,-5,-38,70,-41,-28,-30,-34,-36,-31,-35,-29,-27,-33,-26,-32,72,-37,-7,-25,-9,-40,]),'LE':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,32,-18,-23,32,32,32,-24,32,32,32,-30,-34,-36,-31,-35,-29,32,-33,32,-32,32,-37,-25,-9,]),'NUMBER':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[9,9,9,9,9,9,-4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,-9,9,-3,]),'FUNCTION':([0,1,3,7,11,15,21,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,76,77,79,],[8,8,20,20,20,20,-4,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,-9,20,-3,]),'IF':([0,1,21,47,76,77,79,],[11,11,-4,11,-9,11,-3,]),'IDENTIFIER':([0,1,2,3,7,8,11,15,21,24,26,27,28,29,30,31,32,33,34,35,36,37,38,40,42,47,65,71,76,77,79,],[12,12,17,18,18,23,18,18,-4,43,18,18,18,18,18,18,18,18,18,18,18,18,18,18,43,12,43,18,-9,12,-3,]),'RBRACE':([47,68,77,80,],[-11,76,-11,-10,]),'GT':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,29,-18,-23,29,29,29,-24,29,29,29,-30,-34,-36,-31,-35,-29,29,-33,29,-32,29,-37,-25,-9,]),'EQUAL':([12,17,],[27,40,]),'LT':([4,9,10,12,13,14,18,19,22,25,39,41,50,51,52,53,54,55,56,57,58,59,60,61,62,63,70,74,76,],[-21,-19,-22,-18,-20,34,-18,-23,34,34,34,-24,34,34,34,-30,-34,-36,-31,-35,-29,34,-33,34,-32,34,-37,-25,-9,]),'COMMA':([4,9,10,13,18,19,41,43,50,52,53,54,55,56,57,58,59,60,61,62,70,74,76,],[-21,-19,-22,-20,-18,-23,-24,65,71,-28,-30,-34,-36,-31,-35,-29,-27,-33,-26,-32,-37,-25,-9,]),'RETURN':([0,1,21,47,76,77,79,],[15,15,-4,15,-9,15,-3,]),}
 
 _lr_action = {}
 for _k, _v in _lr_action_items.items():
@@ -16,7 +16,7 @@ for _k, _v in _lr_action_items.items():
       _lr_action[_x][_k] = _y
 del _lr_action_items
 
-_lr_goto_items = {'element':([0,2,16,],[2,2,2,]),'tagnameend':([21,],[22,]),'tag_argument':([10,11,],[11,11,]),'tagname':([7,],[10,]),'tag_arguments':([10,11,],[12,14,]),'html':([0,2,16,],[6,8,18,]),}
+_lr_goto_items = {'compoundstmt':([25,66,67,72,],[46,74,75,79,]),'element':([0,1,],[1,1,]),'args':([26,71,],[48,78,]),'optparams':([24,42,],[44,64,]),'params':([24,42,65,],[45,45,73,]),'js':([0,1,],[5,16,]),'optargs':([26,],[49,]),'exp':([0,1,3,7,11,15,26,27,28,29,30,31,32,33,34,35,36,37,38,40,47,71,77,],[14,14,19,22,25,39,50,51,52,53,54,55,56,57,58,59,60,61,62,63,14,50,14,]),'stmt':([0,1,47,77,],[6,6,69,69,]),'statements':([47,77,],[68,80,]),}
 
 _lr_goto = {}
 for _k, _v in _lr_goto_items.items():
@@ -25,19 +25,46 @@ for _k, _v in _lr_goto_items.items():
        _lr_goto[_x][_k] = _y
 del _lr_goto_items
 _lr_productions = [
-  ("S' -> html","S'",1,None,None,None),
-  ('html -> element html','html',2,'p_html','htmlgrammar.py',9),
-  ('html -> <empty>','html',0,'p_html_empty','htmlgrammar.py',13),
-  ('element -> WORD','element',1,'p_element_word','htmlgrammar.py',17),
-  ('element -> EQUAL','element',1,'p_element_word_eq','htmlgrammar.py',21),
-  ('element -> STRING','element',1,'p_element_word_string','htmlgrammar.py',25),
-  ('tagname -> WORD','tagname',1,'p_tagname','htmlgrammar.py',30),
-  ('tagnameend -> WORD','tagnameend',1,'p_tagnameend','htmlgrammar.py',36),
-  ('element -> LANGLE tagname tag_arguments SLASHRANGLE','element',4,'p_element_tag_emtpy','htmlgrammar.py',47),
-  ('element -> LANGLE tagname tag_arguments RANGLE html LANGLESLASH tagnameend RANGLE','element',8,'p_element_tag','htmlgrammar.py',54),
-  ('tag_arguments -> tag_argument tag_arguments','tag_arguments',2,'p_tag_arguments','htmlgrammar.py',59),
-  ('tag_arguments -> <empty>','tag_arguments',0,'p_tag_arguments_empty','htmlgrammar.py',64),
-  ('tag_argument -> WORD EQUAL WORD','tag_argument',3,'p_tag_argument_word','htmlgrammar.py',68),
-  ('tag_argument -> WORD EQUAL STRING','tag_argument',3,'p_tag_argument_string','htmlgrammar.py',72),
-  ('element -> JAVASCRIPT','element',1,'p_element_javascript','htmlgrammar.py',76),
+  ("S' -> js","S'",1,None,None,None),
+  ('js -> element js','js',2,'p_js_element','jsgrammars.py',20),
+  ('js -> <empty>','js',0,'p_js_empty','jsgrammars.py',24),
+  ('element -> FUNCTION IDENTIFIER LPAREN optparams RPAREN compoundstmt','element',6,'p_element_function_define','jsgrammars.py',28),
+  ('element -> stmt SEMICOLON','element',2,'p_element_statement','jsgrammars.py',32),
+  ('optparams -> params','optparams',1,'p_optparams_params','jsgrammars.py',36),
+  ('optparams -> <empty>','optparams',0,'p_optparams_empty','jsgrammars.py',40),
+  ('params -> IDENTIFIER COMMA params','params',3,'p_params','jsgrammars.py',44),
+  ('params -> IDENTIFIER','params',1,'p_params_last','jsgrammars.py',48),
+  ('compoundstmt -> LBRACE statements RBRACE','compoundstmt',3,'p_compoundstmt','jsgrammars.py',52),
+  ('statements -> stmt SEMICOLON statements','statements',3,'p_statements','jsgrammars.py',56),
+  ('statements -> <empty>','statements',0,'p_statements_empty','jsgrammars.py',60),
+  ('stmt -> IF exp compoundstmt','stmt',3,'p_stmt_if_then','jsgrammars.py',64),
+  ('stmt -> IF exp compoundstmt ELSE compoundstmt','stmt',5,'p_stmt_if_then_else','jsgrammars.py',68),
+  ('stmt -> IDENTIFIER EQUAL exp','stmt',3,'p_stmt_assign','jsgrammars.py',72),
+  ('stmt -> RETURN exp','stmt',2,'p_stmt_return','jsgrammars.py',76),
+  ('stmt -> VAR IDENTIFIER EQUAL exp','stmt',4,'p_stmt_var','jsgrammars.py',80),
+  ('stmt -> exp','stmt',1,'p_stmt_exp','jsgrammars.py',84),
+  ('exp -> IDENTIFIER','exp',1,'p_exp_identifier','jsgrammars.py',89),
+  ('exp -> NUMBER','exp',1,'p_exp_number','jsgrammars.py',93),
+  ('exp -> STRING','exp',1,'p_exp_string','jsgrammars.py',97),
+  ('exp -> TRUE','exp',1,'p_exp_true','jsgrammars.py',101),
+  ('exp -> FALSE','exp',1,'p_exp_false','jsgrammars.py',105),
+  ('exp -> NOT exp','exp',2,'p_exp_not','jsgrammars.py',109),
+  ('exp -> LPAREN exp RPAREN','exp',3,'p_exp_parens','jsgrammars.py',113),
+  ('exp -> FUNCTION LPAREN optparams RPAREN compoundstmt','exp',5,'p_exp_lambda','jsgrammars.py',117),
+  ('exp -> exp OROR exp','exp',3,'p_binop','jsgrammars.py',121),
+  ('exp -> exp ANDAND exp','exp',3,'p_binop','jsgrammars.py',122),
+  ('exp -> exp EQUALEQUAL exp','exp',3,'p_binop','jsgrammars.py',123),
+  ('exp -> exp LT exp','exp',3,'p_binop','jsgrammars.py',124),
+  ('exp -> exp GT exp','exp',3,'p_binop','jsgrammars.py',125),
+  ('exp -> exp LE exp','exp',3,'p_binop','jsgrammars.py',126),
+  ('exp -> exp GE exp','exp',3,'p_binop','jsgrammars.py',127),
+  ('exp -> exp PLUS exp','exp',3,'p_binop','jsgrammars.py',128),
+  ('exp -> exp MINUS exp','exp',3,'p_binop','jsgrammars.py',129),
+  ('exp -> exp TIMES exp','exp',3,'p_binop','jsgrammars.py',130),
+  ('exp -> exp DIVIDE exp','exp',3,'p_binop','jsgrammars.py',131),
+  ('exp -> IDENTIFIER LPAREN optargs RPAREN','exp',4,'p_call','jsgrammars.py',135),
+  ('optargs -> args','optargs',1,'p_optargs','jsgrammars.py',139),
+  ('optargs -> <empty>','optargs',0,'p_optargs_empty','jsgrammars.py',143),
+  ('args -> exp COMMA args','args',3,'p_args','jsgrammars.py',147),
+  ('args -> exp','args',1,'p_args_last','jsgrammars.py',151),
 ]

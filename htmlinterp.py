@@ -6,10 +6,11 @@ import graphics
 
 htmllexer = lex.lex(module=htmltokens)
 htmlparser = yacc.yacc(module=htmlgrammar,tabmodule="parsetabhtml")
-graphics.initialize()
+
 
 # Recursively Interpret an HTML AST
 def interpret(ast):
+    # graphics.initialize()
     for node in ast:
         nodetype = node[0]
         if nodetype == "word-element":
@@ -25,5 +26,4 @@ def interpret(ast):
                 graphics.begintag(tagname, tagargs)
                 interpret(subast)
                 graphics.endtag()
-
-graphics.finalize()
+    # graphics.finalize()

@@ -69,7 +69,6 @@ def t_eolcomment(token):
     r'//.*'
     pass
 
-# 可以直接用字符串 t_ANDAND = r'&&'
 t_ANDAND = r'&&'
 t_COMMA = r','
 t_DIVIDE = r'/'
