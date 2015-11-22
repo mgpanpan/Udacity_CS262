@@ -152,7 +152,7 @@ def eval_exp(exp, env):
                         eval_stmts(fbody, fenv)
                         return None
                     except Exception as retval:
-                        return retval
+                        return retval.args[0]
     else:
         print("ERROR: unknown expression type " + etype)
         exit(1)
