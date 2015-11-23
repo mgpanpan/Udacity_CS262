@@ -2,7 +2,11 @@ import ply.lex as lex
 import ply.yacc as yacc
 import htmltokens
 import htmlgrammar
+import jsinterp
+import jstokens
+import jsgrammar
 import graphics
+
 
 htmllexer = lex.lex(module=htmltokens)
 htmlparser = yacc.yacc(module=htmlgrammar,tabmodule="parsetabhtml")
@@ -26,4 +30,12 @@ def interpret(ast):
                 graphics.begintag(tagname, tagargs)
                 interpret(subast)
                 graphics.endtag()
+        elif nodetype == "javascript-element":
+            jstext = node[1]
+            jslexer = lex.lex(module=jstokens)
+            jsparser = yacc.yacc(module=jsgrammar,tabmodule="parsetabjs")
+            jsast = jsparser.parse(jstext,lexer=jslexer)
+            result = jsinterp.jsinterp(jsast)
+            htmlast = htmlparser.parse(result,lexer=htmllexer)
+            interpret(htmlast)
     # graphics.finalize()
